@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "BCScaner",
+    "slug": "skaner01",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.pracainzynierska.bcskaner",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.pracainzynierska.bcskaner",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAZjZVUt9zPQ7KdmaylhQfxLQDiiQ0dXsM"
+        }
+      }
+    }
+  }
+}
